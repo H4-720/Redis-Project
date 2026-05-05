@@ -36,4 +36,5 @@ public class UserController {
     public void deleteUser(@RequestParam String userId) {
         userDao.deleteUser(userId);
     }
+
 }
